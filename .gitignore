@@ -1,0 +1,13 @@
+/.venv/
+/venv/
+env
+.env
+*.log
+*.pyc
+/vscode/
+/.vscode/
+/.idea/
+/idea/
+.DS_Store
+.Thumbs.db
+Desktop.ini
