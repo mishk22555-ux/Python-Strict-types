@@ -3,12 +3,12 @@ requires = ["setuptools>=77", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "strict-types"
-version = "0.1.0"
+name = "strict-types-python"
+version = "0.1.1"
 description = "A Python library providing strict numeric types with bounded values."
 readme = "README.md"
 requires-python = ">=3.10"
-license = "MIT"
+license = "GPL"
 authors = [
     { name = "Mikhail" }
 ]

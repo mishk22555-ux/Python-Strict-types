@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+strict_types/__init__.py
+strict_types/base.py
+strict_types/integers.py
+strict_types/percentage.py
+strict_types/py.typed
+strict_types_python.egg-info/PKG-INFO
+strict_types_python.egg-info/SOURCES.txt
+strict_types_python.egg-info/dependency_links.txt
+strict_types_python.egg-info/requires.txt
+strict_types_python.egg-info/top_level.txt
+tests/test.py
