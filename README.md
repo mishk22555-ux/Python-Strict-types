@@ -137,20 +137,13 @@ Python-Strict-types/
 └── README.md
 ```
 
-## Roadmap
-
-- [x] ByteType
-- [x] ShortType
-- [x] IntegerType
-- [x] PercentageType
-- [ ] Strict arithmetic operations
-- [ ] Additional numeric types
-- [ ] Extended unit tests
-- [ ] PyPI publication
-
 ## License
 
-MIT License, if included in the repository.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0-only).
+
+See the [LICENSE](LICENSE) file for the full license text.
+
+Copyright (C) 2026 Mikhail.
 
 ## Author
 
