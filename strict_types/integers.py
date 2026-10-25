@@ -1,5 +1,6 @@
 from .base import BoundedInt
 
+
 class ByteType(BoundedInt):
     MIN = -128
     MAX = 127

@@ -1,6 +1,6 @@
 import pytest
 
-from strict_types import ByteType, ShortType, IntegerType, PercentageType
+from strict_types import ByteType, IntegerType, PercentageType, ShortType
 
 
 def test_byte():

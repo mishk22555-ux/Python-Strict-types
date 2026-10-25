@@ -1,2 +1,2 @@
-from .integers import ByteType, ShortType, IntegerType
+from .integers import ByteType, IntegerType, ShortType
 from .percentage import PercentageType

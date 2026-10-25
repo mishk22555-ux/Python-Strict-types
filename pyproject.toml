@@ -9,6 +9,7 @@ description = "A Python library providing strict numeric types with bounded valu
 readme = "README.md"
 requires-python = ">=3.10"
 license = "GPL-3.0-only"
+license-files = ["LICENSE"]
 authors = [
     { name = "Mikhail" }
 ]
