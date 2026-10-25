@@ -1,16 +1,44 @@
-/.venv/
-/venv/
-env
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
 .env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checking and linting
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# IDEs
+.idea/
+.vscode/settings.json
+.vscode/launch.json
+
+# Logs
 *.log
-*.pyc
-/vscode/
-/.vscode/
-/.idea/
-/idea/
+
+# OS
 .DS_Store
-.Thumbs.db
+Thumbs.db
 Desktop.ini
-/.__pycache__/
-/__pycache__/
-/.pytest_cache/
