@@ -11,14 +11,15 @@ A lightweight Python library that provides strict numeric types with explicit va
 - Type annotations and PEP 561 support.
 - Compatible with Python 3.10+.
 
-## Installation
-
-Clone the repository:
+## Clone the repository
 
 ```bash
 git clone git@github.com:mishk22555-ux/Python-Strict-types.git
-cd Python-Strict-types
-pip install -e .
+```
+
+## Installation
+```bash
+pip install strict-types
 ```
 
 ## Available Types
