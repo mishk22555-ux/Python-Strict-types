@@ -1,0 +1,2 @@
+[tool.setuptools.package-data]
+strict_types = ["py.typed"]
