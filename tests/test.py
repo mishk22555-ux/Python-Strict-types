@@ -1,17 +1,32 @@
-from strict_types import (
-    ByteType,
-    IntegerType,
-    ShortType,
-    PercentageType
-)
+import pytest
 
-byte = ByteType(-128)
-short = ShortType(-9_000_000)
-integer = IntegerType(-2_000_000_000)
-percentage = PercentageType(75)
+from strict_types import ByteType, ShortType, IntegerType, PercentageType
 
-print(byte)
-print(short)
-print(integer)
-print(percentage)
-print(repr(percentage))
+
+def test_byte():
+    assert ByteType(127) == 127
+    assert ByteType(-128) == -128
+
+    with pytest.raises(ValueError):
+        ByteType(128)
+
+
+def test_short():
+    assert ShortType(9_000_000) == 9_000_000
+
+    with pytest.raises(ValueError):
+        ShortType(9_000_001)
+
+
+def test_integer():
+    assert IntegerType(2_000_000_000) == 2_000_000_000
+
+    with pytest.raises(ValueError):
+        IntegerType(2_000_000_001)
+
+
+def test_percentage():
+    assert PercentageType(75) == 75
+
+    with pytest.raises(ValueError):
+        PercentageType(101)
